@@ -1,6 +1,3 @@
-let caracter = "";
-
-for (let i = 1; i <= 7; i++) {
-    caracter += "#"
+for (let caracter = "#"; caracter.length <= 7; caracter += "#") {
     console.log(caracter);
 }
