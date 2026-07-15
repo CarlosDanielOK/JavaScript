@@ -1,3 +1,6 @@
-for (let caracter = "#"; caracter.length <= 7; caracter += "#") {
-    console.log(caracter);
+let palabra = "";
+
+for (let i = 0; i < 7; i++) {
+    palabra = palabra + "#";
+    console.log(palabra);
 }

@@ -1,10 +1,12 @@
 for (let i = 1; i <= 100; i++) {
-    let salida = "";
+    let fizzbuzz = "";
+
     if (i % 3 == 0) {
-        salida += "Fizz";
+        fizzbuzz += "Fizz";
     }
     if (i % 5 == 0) {
-        salida += "Buzz";
+        fizzbuzz += "Buzz";
     }
-    console.log(salida || i);
+
+    console.log(fizzbuzz || i);
 }
